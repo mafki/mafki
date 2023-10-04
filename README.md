@@ -5,42 +5,47 @@
 ```php
 <?php
 
-namespace FKI MOHAMED AMINE;
+namespace MOHAMED_AMINE_FKI;
 
-class About extends Me
+class AboutMe
 {
     public function getBio(): string
     {
-        return 'I am Software Engineering Student, CTF Player and a Web Developer.';
+        return 'I am a dedicated Software Engineering Student, passionate CTF Player, and skilled Web Developer.';
     }
 
-    public function getMore(): array
+    public function getExperience(): array
     {
         return [
             'work' => [
-                'Freelancer'
+                'Freelancer',
+                'Software Engineering Intern'
             ],
-                'Software Engineering'
+            'skills' => [
+                'Web Development',
+                'Cybersecurity',
+                'Full Stack Development'
             ]
         ];
     }
 
-    public function getCurrentState(): array 
+    public function getCurrentStatus(): array 
     {
         return [
             'learning' => [
-                'Hardware',
-                'DevOps and DevSecOps'
+            'Advanced Cybersecurity',
+            'MERN Stack Development',
+            'Cloud Computing',
             ],
-            'looking_for' => [
-                'Part Time jobs in Web Developement'
+            'seeking' => [
+                'I am actively working towards securing a full-stack development position to contribute my skills to a dynamic team.'
             ]
         ];
     }
 
     public function getFutureGoal(): string
     {
-        return 'To contribute to open source.';
+        return 'My ultimate goal is to excel in a full-stack development role, creating innovative solutions and delivering exceptional user experiences.';
     }
 }
-?>
+
